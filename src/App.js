@@ -22,11 +22,13 @@ class Counter extends Component {
   increment = () => {
     this.setState ({
       count: this.state.count +1})
+      {if count <20 do not increment}
        //i=0; i>= 0; i++
   }
   decrement = () => {
     this.setState ({
-      count: this.state.count -1})
+      count: this.state.count -1}
+    {if count >0 do not decrement})
        //i=0; i>= 0; i++
   }
   render() {
